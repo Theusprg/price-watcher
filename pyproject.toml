@@ -1,0 +1,26 @@
+[project]
+name = "price-watcher"
+version = "0.1.0"
+description = "webscrapping de sites"
+authors = [
+    {name = "Cia",email = "dragaoking123@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "PyQt6 (>=6.6.0,<7.0.0)", # <--- ESTA É A LINHA CORRIGIDA
+    "selenium (>=4.33.0,<5.0.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "webdriver-manager (>=4.0.2,<5.0.0)",
+    "lxml (>=5.4.0,<6.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    # **Adicione customtkinter aqui se ele não estiver:**
+    # "customtkinter (>=0.6.0,<1.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
