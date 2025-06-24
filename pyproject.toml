@@ -7,20 +7,25 @@ authors = [
 ]
 license = {text = "MIT"}
 readme = "README.md"
-requires-python = ">=3.10"
+package-mode = false # <--- ADICIONE ESTA LINHA AQUI
+requires-python = ">=3.10,<3.14" # Agora, o projeto suporta Python 3.10, 3.11, 3.12, 3.13.
 dependencies = [
-    "PyQt6 (>=6.6.0,<7.0.0)", # <--- ESTA É A LINHA CORRIGIDA
+    "PyQt6 (>=6.6.0,<7.0.0)",
     "selenium (>=4.33.0,<5.0.0)",
     "pandas (>=2.3.0,<3.0.0)",
     "matplotlib (>=3.10.3,<4.0.0)",
     "webdriver-manager (>=4.0.2,<5.0.0)",
     "lxml (>=5.4.0,<6.0.0)",
     "openpyxl (>=3.1.5,<4.0.0)",
-    # **Adicione customtkinter aqui se ele não estiver:**
-    # "customtkinter (>=0.6.0,<1.0.0)"
-    "beautifulsoup4 (>=4.13.4,<5.0.0)"
+    "beautifulsoup4 (>=4.12.3,<5.0.0)",
+    "pyinstaller (>=6.14.1,<7.0.0)"
 ]
 
+packages = [ # Esta seção pode ser mantida, ou removida, mas com package-mode=false, ela não será usada para instalar o próprio projeto.
+    {include = "app.py"},
+    {include = "scrapers"},
+    {include = "utils"}
+]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
