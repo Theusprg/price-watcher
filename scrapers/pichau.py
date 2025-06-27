@@ -49,7 +49,7 @@ def pichau(produto, page_number, time_str): # Renomeado 'number' para 'page_numb
     driver = webdriver.Chrome(service=service, options=options)
 
     # ATENÇÃO: URL ajustada para busca genérica na Pichau
-    url = f"https://www.pichau.com.br/busca?q={produto}&page={page_number}"
+    url = f"https://www.pichau.com.br/{produto}/{produto}?page={page_number}"
     driver.get(url)
 
     sleep(4) # Pausa para carregar a página
@@ -82,6 +82,7 @@ def pichau(produto, page_number, time_str): # Renomeado 'number' para 'page_numb
         })
     driver.quit()
     return produtos_raspados # Retorna a lista de dicionários em vez de salvar o CSV
+ # Teste rápido para verificar se a função está funcionando
 
 # REMOVIDO: Bloco de execução global (pages, nome_produto, for loop),
 # pois este arquivo será importado e executado pelo app.py.

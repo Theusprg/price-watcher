@@ -1,69 +1,105 @@
-# scrapers/mercadolivre.py
+# scrapers/mercadolivre.py (apenas a função mercadolivre, assumindo que get_driver_path e imports já estão lá)
 
-import sys # Importado para verificar se está rodando como executável PyInstaller
-import os  # Importado para manipulação de caminhos
+import sys
+import os
 from bs4 import BeautifulSoup
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
-# REMOVIDO: from webdriver_manager.chrome import ChromeDriverManager # Não usaremos mais o manager para o executável
-
+from selenium.webdriver.chrome.options import Options as ChromeOptions
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 import re
 
-# --- Função auxiliar para obter o caminho CORRETO do driver ---
-# Esta função é crucial para que o executável PyInstaller encontre o driver
+# Função get_driver_path (mantém a que você já tem)
 def get_driver_path(driver_name):
-    # Verifica se o script está rodando dentro de um executável PyInstaller
     if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
-        # No executável PyInstaller, o _MEIPASS é o diretório temporário onde tudo é extraído.
-        # Assumimos que a pasta 'drivers' foi copiada para a raiz desse diretório temporário.
         bundle_dir = sys._MEIPASS
     else:
-        # Se estiver rodando em ambiente de desenvolvimento (ex: com 'poetry run python app.py')
-        # __file__ é o caminho para este script (ex: price-watcher/scrapers/mercadolivre.py)
-        # Queremos o caminho para price-watcher/drivers/
-        # Então, precisamos subir dois níveis de diretório
         project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        bundle_dir = project_root # O caminho base é a raiz do projeto
-
-    # Combina o caminho base com o nome da pasta 'drivers' e o nome do driver
+        bundle_dir = project_root
     return os.path.join(bundle_dir, 'drivers', driver_name)
 
 def mercadolivre(produto, current_offset, time_str):
-    options = webdriver.ChromeOptions()
-    # options.add_argument("--headless=new") # Você pode ativar isso depois se quiser rodar sem abrir a janela do navegador
-
-    # --- Usar o caminho do driver empacotado/local ---
-    # Assegure-se de que 'chromedriver.exe' está na pasta 'drivers/'
-    driver_executable_path = get_driver_path("chromedriver.exe")
+    options = ChromeOptions()
+    #options.add_argument("--headless=new") # Removido para depuração, se quiser que ele NÃO apareça. Descomente esta linha.
     
-    # Verifica se o arquivo do driver realmente existe no caminho esperado
+    # Opções para evitar detecção (mantém as que você já tem)
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+
+    driver_executable_path = get_driver_path("chromedriver.exe")
     if not os.path.exists(driver_executable_path):
         raise FileNotFoundError(f"Erro: Driver '{driver_executable_path}' não encontrado. Baixe-o e coloque na pasta 'drivers/' do seu projeto.")
 
-    service = ChromeService(executable_path=driver_executable_path)
-    driver = webdriver.Chrome(service=service, options=options)
+    driver = None # Inicializa driver como None
 
-    url = f"https://lista.mercadolivre.com.br/informatica/portateis-acessorios/{produto}/{produto}_Desde_{current_offset}_NoIndex_True"
-    driver.get(url)
+    try:
+        service = ChromeService(executable_path=driver_executable_path)
+        driver = webdriver.Chrome(service=service, options=options)
 
-    sleep(4)
+        url = f"https://lista.mercadolivre.com.br/informatica/portateis-acessorios/{produto}/{produto}_Desde_{current_offset}_NoIndex_True"
+        driver.get(url)
 
-    html = driver.page_source
-    soup = BeautifulSoup(html, "html.parser")
-    
-    nomes_elems = soup.find_all(class_=re.compile(r"\bpoly-component__title\b"))
-    precos_elems = soup.find_all(class_=re.compile(r"\bpoly-price__current\b"))
-    
-    produtos_raspados = []
-    for nome_elem, preco_elem in zip(nomes_elems, precos_elems):
-        nome_text = nome_elem.get_text(strip=True)
-        preco_text_bruto = preco_elem.get_text(strip=True)
+        # Usar WebDriverWait para esperar por elementos
+        WebDriverWait(driver, 20).until(
+            EC.visibility_of_element_located((By.CSS_SELECTOR, "h3.poly-component__title-wrapper"))
+        )
+        sleep(3)  # Pausa extra para garantir carregamento
+
+
+        html = driver.page_source
+        #print("DEBUG_ML: HTML da página salvo em debug_ml_page.html")
+        soup = BeautifulSoup(html, "html.parser")
         
-        produtos_raspados.append({
-            "Site": "Mercado Livre",
-            "Nome do Produto": nome_text,
-            "Preço Bruto": preco_text_bruto,
-            "Data do Scraping": time_str
-        })
-    driver.quit()
+        produtos_raspados = []
+
+        product_list_items = soup.find_all('li', class_='ui-search-layout__item')
+
+        for item in product_list_items:
+            # Nome do produto
+            nome_elem = item.find('h3', class_='poly-component__title-wrapper')
+            nome_text = nome_elem.get_text(strip=True) if nome_elem else "N/A"
+
+            # Link do produto (dentro do <a> dentro do h3)
+            link_elem = nome_elem.find('a') if nome_elem else None
+            link_produto = link_elem.get('href') if link_elem else "N/A"
+
+            # Preço
+            preco_text_bruto = "N/A"
+            preco_container = item.find('div', class_='poly-price__current')
+            if preco_container:
+                # A parte inteira do preço está em span com classe 'andes-money-amount__fraction'
+                preco_frac = preco_container.find('span', class_='andes-money-amount__fraction')
+                # Símbolo da moeda (ex: R$)
+                preco_simbolo = preco_container.find('span', class_='andes-money-amount__currency-symbol')
+
+                preco_text_bruto = ""
+                if preco_simbolo:
+                    preco_text_bruto += preco_simbolo.get_text(strip=True)
+                if preco_frac:
+                    preco_text_bruto += preco_frac.get_text(strip=True)
+
+            produtos_raspados.append({
+                "Site": "Mercado Livre",
+                "Nome do Produto": nome_text,
+                "Preço Bruto": preco_text_bruto,
+                "Link do Produto": link_produto,
+                "Data do Scraping": time_str
+            })
+        return produtos_raspados
+
+    except Exception as e:
+        print(f"DEBUG_ML: Erro inesperado na função mercadolivre: {e}")
+        # Retorna uma lista vazia em caso de erro para não quebrar a ScraperThread
+        return [] 
+    finally:
+        # Este bloco será executado SEMPRE, independentemente de haver um erro ou não.
+        if driver: # Verifica se o driver foi inicializado antes de tentar fechá-lo
+            driver.quit()
+            print("DEBUG_ML: Navegador fechado (finally block).")
+ # Teste rápido para verificar se a função está funcionando
+

@@ -1,4 +1,3 @@
-# app.py
 
 import sys
 import os # Importado para manipulação de caminhos de arquivo/diretórios
@@ -25,12 +24,12 @@ import pandas as pd # Para manipulação de dados (DataFrames)
 # Certifique-se que esses arquivos estão na pasta 'scrapers' e 'utils' respectivamente
 from scrapers.aliexpress import aliexpress
 from scrapers.mercadolivre import mercadolivre
-from scrapers.pichau import pichau # NOVO
-from scrapers.amazon import amazon # NOVO
-from scrapers.kabum import kabum # NOVO
-from scrapers.terabyteshop import terabyte # NOVO
+from scrapers.pichau import pichau
+from scrapers.amazon import amazon
+from scrapers.kabum import kabum
+from scrapers.terabyteshop import terabyte
 
-from utils.data_processor import limpar_e_converter_preco, carregar_dados_raspados
+from utils.data_processor import limpar_e_converter_preco, carregar_dados_raspados, agrupar_produtos_similares, gerar_grafico_linha_com_destaques
 
 # --- FUNÇÃO AUXILIAR PARA CAMINHOS DE RECURSOS (PARA EXECUTÁVEIS PYINSTALLER) ---
 def resource_path(relative_path):
@@ -80,60 +79,116 @@ class ScraperThread(QThread):
 
                 # --- Lógica de Paginação Específica para Cada Site ---
                 page_data = [] # Para armazenar os dados da página atual
-                
+                scraper_function = None # Irá armazenar a função de scraper a ser chamada
+
                 if self.selected_site == "AliExpress":
                     self.progress_update.emit(f"Raspando AliExpress - Página {page_number_for_most_sites} de {self.num_pages}...")
-                    page_data = aliexpress(self.product_name, page_number_for_most_sites, current_time_str)
+                    scraper_function = aliexpress
+                    current_page_param = page_number_for_most_sites
                     page_number_for_most_sites += 1
                 elif self.selected_site == "Mercado Livre":
                     self.progress_update.emit(f"Raspando Mercado Livre - Offset {ml_offset} (Pág. {i+1} de {self.num_pages})...")
-                    page_data = mercadolivre(self.product_name, ml_offset, current_time_str)
+                    scraper_function = mercadolivre
+                    current_page_param = ml_offset
                     ml_offset += 48
                 elif self.selected_site == "Pichau":
                     self.progress_update.emit(f"Raspando Pichau - Página {page_number_for_most_sites} de {self.num_pages}...")
-                    page_data = pichau(self.product_name, page_number_for_most_sites, current_time_str)
+                    scraper_function = pichau
+                    current_page_param = page_number_for_most_sites
                     page_number_for_most_sites += 1
                 elif self.selected_site == "Amazon":
                     self.progress_update.emit(f"Raspando Amazon - Página {page_number_for_most_sites} de {self.num_pages}...")
-                    page_data = amazon(self.product_name, page_number_for_most_sites, current_time_str)
+                    scraper_function = amazon
+                    current_page_param = page_number_for_most_sites
                     page_number_for_most_sites += 1
                 elif self.selected_site == "Kabum":
                     self.progress_update.emit(f"Raspando Kabum - Página {page_number_for_most_sites} de {self.num_pages}...")
-                    page_data = kabum(self.product_name, page_number_for_most_sites, current_time_str)
+                    scraper_function = kabum
+                    current_page_param = page_number_for_most_sites
                     page_number_for_most_sites += 1
                 elif self.selected_site == "TerabyteShop":
                     self.progress_update.emit(f"Raspando TerabyteShop - Página {page_number_for_most_sites} de {self.num_pages}...")
-                    page_data = terabyte(self.product_name, page_number_for_most_sites, current_time_str)
+                    scraper_function = terabyte
+                    current_page_param = page_number_for_most_sites
                     page_number_for_most_sites += 1
                 else:
                     self.error.emit(f"Site '{self.selected_site}' não configurado para scraping. Verifique a lógica de chamada.")
                     return # Sai da thread se o site não for reconhecido
 
-                if page_data: # Se dados foram coletados na página
-                    self.all_scraped_data.extend(page_data) # Adiciona à lista geral de dados
+                # --- NOVO BLOCO TRY-EXCEPT PARA A CHAMADA DO SCRAPER ---
+                try:
+                    # Chama a função do scraper, passando os parâmetros corretos
+                    # page_data será uma lista de dicionários ou None se algo der errado
+                    page_data = scraper_function(self.product_name, current_page_param, current_time_str)
+                    
+                    # Garante que page_data seja uma lista, mesmo que o scraper retorne None inesperadamente
+                    if page_data is None:
+                        print(f"DEBUG: Scraper para {self.selected_site} retornou None para a página {current_page_param}. Tratando como lista vazia.")
+                        temp_page_data = []
+                    else:
+                        temp_page_data = page_data # Se não for None, usa os dados retornados
+                        
+                except Exception as scraper_ex:
+                    # Captura exceções específicas do scraper (ex: FileNotFoundError do driver, erro de Selenium)
+                    print(f"DEBUG: ERRO NO SCRAPER '{self.selected_site}' na página {current_page_param}: {scraper_ex}")
+                    # Pode emitir um progresso para a GUI avisando do erro da página
+                    self.progress_update.emit(f"Erro na página {current_page_param} de {self.selected_site}: {str(scraper_ex)}. Tentando continuar...")
+                    temp_page_data = [] # Define como lista vazia para não travar o loop
+                # --- FIM DO NOVO BLOCO TRY-EXCEPT ---
+
+                # --- PRINTS DE DEBUG (Após a chamada do scraper, agora usando temp_page_data) ---
+                print(f"\n--- DEBUG: Dados retornados por {self.selected_site} (Pág {i+1} / Param {current_page_param}): {len(temp_page_data)} itens ---")
+                if temp_page_data:
+                    print(f"DEBUG: Primeiro item retornado: {temp_page_data[0]}")
+                else:
+                    print("DEBUG: Nenhum item retornado pelo scraper da página ou erro tratado.")
+                # --- FIM DOS PRINTS DE DEBUG ---
+
+                if temp_page_data: # Se dados foram coletados na página
+                    self.all_scraped_data.extend(temp_page_data) # Adiciona à lista geral de dados
                     self.progress_update.emit(f"Página {i+1} raspada. Total de itens: {len(self.all_scraped_data)}.")
                 else:
                     self.progress_update.emit(f"Aviso: Nenhuns dados encontrados na página {i+1} para {self.selected_site}.")
                 
-                # Pausa entre as requisições para evitar bloqueio (simula comportamento humano)
-                if self._is_running and i < self.num_pages - 1: # Pausa apenas se não é a última página e não foi interrompido
-                    time.sleep(np.random.uniform(5, 10)) # Pausa aleatória entre 5 e 10 segundos
+                if self._is_running and i < self.num_pages - 1:
+                    time.sleep(np.random.uniform(5, 10))
 
             # --- Após o Loop de Scraping ---
+            # Este bloco de código verifica se o scraping terminou normalmente e processa/salva os dados
             if self._is_running: # Verifica se o scraping terminou normalmente (não foi interrompido)
+                # --- INÍCIO DOS PRINTS DE DEBUG (Antes e Depois do Processamento) ---
+                print(f"\n--- DEBUG: Total de dados brutos coletados ANTES DO DATAFRAME: {len(self.all_scraped_data)} itens ---")
                 if not self.all_scraped_data: # Se não coletou nada
+                    print("DEBUG: all_scraped_data está vazio. Não vai criar DataFrame.")
                     self.finished.emit(pd.DataFrame()) # Emite DataFrame vazio
                     self.progress_update.emit("Scraping concluído. Nenhuns produtos coletados.")
                     return
 
                 df_raw = pd.DataFrame(self.all_scraped_data)
+                print(f"DEBUG: DF_RAW (primeiras 3 linhas):\n{df_raw.head(3)}")
+                print(f"DEBUG: DF_RAW (últimas 3 linhas):\n{df_raw.tail(3)}")
+                print(f"DEBUG: DF_RAW (informações):\n")
+                df_raw.info() # Exibe info do DataFrame (colunas, tipos de dados, não-nulos)
+
+
                 df_processed = limpar_e_converter_preco(df_raw.copy()) # Passa uma cópia para evitar warnings
+                
+                print(f"\nDEBUG: DF_PROCESSED APÓS LIMPEZA (primeiras 3 linhas):\n{df_processed.head(3)}")
+                print(f"DEBUG: DF_PROCESSED APÓS LIMPEZA (últimas 3 linhas):\n{df_processed.tail(3)}")
+                print(f"DEBUG: Tamanho do DF_PROCESSED APÓS LIMPEZA: {len(df_processed)} itens.")
+                print(f"DEBUG: Contagem de valores nulos em 'Preço Numérico' após limpeza: {df_processed['Preço Numérico'].isnull().sum()}")
+                # --- FIM DOS PRINTS DE DEBUG ---
+
+                if df_processed.empty: # Se o DataFrame processado está vazio
+                    print("DEBUG: df_processed está vazio após limpeza e dropna. Não vai salvar CSV.")
+                    self.finished.emit(pd.DataFrame()) # Emite um DataFrame vazio
+                    self.progress_update.emit("Scraping concluído. Nenhuns produtos válidos coletados.")
+                    return
 
                 # --- Salvamento Centralizado em CSV ---
                 output_dir = "data"
                 os.makedirs(output_dir, exist_ok=True) # Cria a pasta 'data' se não existir
                 
-                # Nome do arquivo CSV (ex: aliexpress_notebook_20231027_103000.csv)
                 output_filename = f"{self.selected_site.lower().replace(' ', '_')}_{self.product_name.replace(' ', '_')}_{current_time_str}.csv"
                 output_filepath = os.path.join(output_dir, output_filename)
                 
@@ -142,11 +197,15 @@ class ScraperThread(QThread):
                 self.progress_update.emit(f"Dados salvos em: {output_filepath}")
                 self.finished.emit(df_processed) # Emite o DataFrame processado para a GUI
             else: # Se a thread foi interrompida
-                self.finished.emit(pd.DataFrame()) # Emite um DataFrame vazio para indicar interrupção
+                self.finished.emit(pd.DataFrame())
 
         except Exception as e:
             # Captura qualquer erro inesperado e o envia para a GUI
             self.error.emit(f"Erro inesperado durante o scraping: {str(e)}")
+            print(f"\n--- ERRO NA THREAD ---")
+            import traceback
+            traceback.print_exc() # Printa o traceback completo no console
+            print(f"----------------------\n")
 
     def stop(self):
         """Método para sinalizar à thread que ela deve parar."""
@@ -318,27 +377,21 @@ class ScraperApp(QMainWindow): # Herda de QMainWindow
         content_layout.setSpacing(20) # Espaçamento entre widgets
         content_layout.addStretch(1) # Empurra elementos para o centro
 
-        # --- Adicionar a Imagem/Logo (AQUI É ONDE A IMAGEM SERÁ COLOCADA) ---
-        image_label = QLabel()
-        image_file_name = "web_scraper_image.png" # Nome do arquivo da sua imagem
-        image_path = resource_path(f"resources/{image_file_name}") 
-        
-        if os.path.exists(image_path):
-            pixmap = QPixmap(image_path)
-            if not pixmap.isNull():
-                # Redimensionar a imagem para caber bem na interface (ex: largura de 300px)
-                scaled_pixmap = pixmap.scaledToWidth(300, Qt.TransformationMode.SmoothTransformation)
-                image_label.setPixmap(scaled_pixmap)
-                image_label.setAlignment(Qt.AlignmentFlag.AlignCenter) # Centraliza a imagem
-                content_layout.addWidget(image_label)
-            else:
-                self.status_label.setText(f"Erro: Não foi possível carregar a imagem '{image_file_name}'. Verifique o formato ou a corrupção.")
-                self.status_label.setStyleSheet("color: #E74C3C; margin-top: 20px;")
-        else:
-            self.status_label.setText(f"Erro: Imagem '{image_file_name}' não encontrada em: {image_path}. Crie a pasta 'resources/' e coloque a imagem lá.")
-            self.status_label.setStyleSheet("color: #E74C3C; margin-top: 20px;")
+        # --- Label de Status/Log (MOVIDO PARA O TOPO DE content_layout) ---
+        self.status_label = QLabel("Pronto para iniciar o scraping.")
+        status_font = QFont("Segoe UI", 10)
+        status_font.setItalic(True)
+        self.status_label.setFont(status_font)
+        self.status_label.setAlignment(Qt.AlignmentFlag.AlignCenter) # Centraliza o texto
+        self.status_label.setStyleSheet("color: #B0B0B0; margin-top: 20px;") # Cor de texto e margem
+        content_layout.addWidget(self.status_label)
+        # --- FIM DO MOVIDO ---
 
-        content_layout.addStretch(1) # Espaçador para empurrar o conteúdo abaixo da imagem
+        # --- Adicionar a Imagem/Logo ---
+        # Removido todo o bloco de código que adicionava o QLabel com a imagem aqui.
+        # (Se quiser re-adicionar, coloque-o depois do status_label e antes dos campos de input)
+
+        content_layout.addStretch(1) # Espaçador para empurrar o conteúdo abaixo do status_label (e onde a imagem estava)
 
         # Campos de Entrada (retornam a referência ao QLineEdit para acesso posterior)
         self.product_input = self._add_input_field(content_layout, "BUSCA", "Digite o nome do produto...", object_name="product_input")
@@ -385,16 +438,7 @@ class ScraperApp(QMainWindow): # Herda de QMainWindow
 
         content_layout.addLayout(action_buttons_layout) # Adiciona o layout dos botões ao layout de conteúdo
 
-        # --- Label de Status/Log ---
-        self.status_label = QLabel("Pronto para iniciar o scraping.")
-        status_font = QFont("Segoe UI", 10)
-        status_font.setItalic(True) # Texto em itálico
-        self.status_label.setFont(status_font)
-        self.status_label.setAlignment(Qt.AlignmentFlag.AlignCenter) # Centraliza o texto
-        self.status_label.setStyleSheet("color: #B0B0B0; margin-top: 20px;") # Cor de texto e margem
-        content_layout.addWidget(self.status_label)
-        
-        content_layout.addStretch(1) # Empurra elementos para o centro/topo
+        # content_layout.addStretch(1) # O espaçador antigo do status_label está integrado ao new positioning
         scraping_h_layout.addWidget(content_frame, 3) # Adiciona o frame de conteúdo ao layout horizontal da aba
 
         # --- Sidebar (Direita da Aba Scraping) ---
@@ -443,7 +487,7 @@ class ScraperApp(QMainWindow): # Herda de QMainWindow
         graphics_tab_content = QWidget() # Widget que contém o conteúdo da aba "Gráficos"
         self.setup_graphics_tab(graphics_tab_content) # Chama o método para configurar a aba de gráficos
         self.tab_widget.addTab(graphics_tab_content, "Gráficos") # Adiciona a aba "Gráficos" ao TabWidget
-        
+
         # Conecta a mudança de abas para que o gráfico seja atualizado quando o usuário clica na aba de gráficos
         self.tab_widget.currentChanged.connect(self.on_tab_changed)
 
@@ -498,7 +542,7 @@ class ScraperApp(QMainWindow): # Herda de QMainWindow
         dashed_line.setStyleSheet("color: #4A4A4A;")
         dashed_line.setAlignment(Qt.AlignmentFlag.AlignCenter) # Alinhamento
         layout.addWidget(dashed_line)
-        
+
         return input_field # Retorna a referência ao QLineEdit para que a classe principal possa obter seu texto
 
     # --- Métodos de Controle da Interface (Conectados aos Botões) ---
@@ -510,7 +554,7 @@ class ScraperApp(QMainWindow): # Herda de QMainWindow
         self.selected_site_from_sidebar = site_name
         self.status_label.setText(f"Site selecionado: {site_name}. Digite o produto e páginas para iniciar.")
         self.status_label.setStyleSheet("color: #B0B0B0; margin-top: 20px;")
-        
+
         # Garante que apenas o botão clicado permaneça marcado
         for s, btn in self.site_buttons.items():
             if s != site_name:
@@ -546,9 +590,9 @@ class ScraperApp(QMainWindow): # Herda de QMainWindow
         # --- Atualiza a UI para o início do scraping ---
         self.status_label.setText(f"Iniciando scraping para '{product_name}' em {self.selected_site_from_sidebar} ({num_pages} páginas)...")
         self.status_label.setStyleSheet("color: #007BFF; margin-top: 20px;") # Cor de status de processo
-        
+
         self.start_scraping_button.setEnabled(False) # Desabilita o botão "Iniciar"
-        self.stop_scraping_button.setEnabled(True)   # Habilita o botão "Parar"
+        self.stop_scraping_button.setEnabled(True)# Habilita o botão "Parar"
         # Desabilita todos os botões da sidebar para evitar nova seleção durante o scraping
         for btn in self.site_buttons.values():
             btn.setEnabled(False)
@@ -600,22 +644,22 @@ class ScraperApp(QMainWindow): # Herda de QMainWindow
             self.status_label.setStyleSheet("color: orange; margin-top: 20px;")
             QMessageBox.information(self, "Scraping Concluído", "Nenhum dado coletado ou processo interrompido.")
 
-    def on_scraping_error(self, message):
+    def on_scraping_error(self, message): # CORRIGIDO: Este método não deve estar aninhado
         """
         Chamado quando a thread de scraping encontra um erro.
         """
         self.status_label.setText(f"Erro no scraping: {message}")
         self.status_label.setStyleSheet("color: #E74C3C; margin-top: 20px;") # Cor vermelha para erro
-        
+
         # Reabilita os botões da UI
         self.start_scraping_button.setEnabled(True)
         self.stop_scraping_button.setEnabled(False)
         for btn in self.site_buttons.values():
             btn.setEnabled(True)
         QMessageBox.critical(self, "Erro no Scraping", message)
-    
-    # --- Métodos para Aba de Gráficos ---
-    def on_tab_changed(self, index):
+
+    # --- Métodos para Aba de Gráficos (fora do aninhamento anterior) ---
+    def on_tab_changed(self, index): # CORRIGIDO: Este método não deve estar aninhado
         """
         Chamado quando a aba do QTabWidget é alterada.
         Atualiza o gráfico se a aba de gráficos for selecionada.
@@ -661,7 +705,7 @@ class ScraperApp(QMainWindow): # Herda de QMainWindow
     def plot_scraped_data(self):
         """
         Carrega dados dos CSVs existentes (ou usa os dados raspados mais recentes),
-        limpa-os e plota o gráfico.
+        limpa-os, agrupa-os e plota o gráfico.
         """
         self.figure.clear() # Limpa o gráfico anterior
         
@@ -672,9 +716,7 @@ class ScraperApp(QMainWindow): # Herda de QMainWindow
         df_to_plot = self.current_scraped_data # Tenta usar os dados raspados mais recentes
 
         if df_to_plot.empty: # Se não há dados raspados recentemente, tenta carregar dos CSVs
-            # self.status_label.setText("Nenhuns dados recentes na memória, tentando carregar de 'data/'...") # Não atualiza o status de dentro do plot
             df_to_plot = carregar_dados_raspados(diretorio_dados="data")
-            # Se carregou algo, processa novamente para ter certeza
             if not df_to_plot.empty:
                 df_to_plot = limpar_e_converter_preco(df_to_plot.copy())
                 df_to_plot = df_to_plot.dropna(subset=['Preço Numérico']) # Remove linhas sem preço numérico
@@ -690,42 +732,49 @@ class ScraperApp(QMainWindow): # Herda de QMainWindow
                 ax.spines['bottom'].set_visible(False)
                 ax.spines['left'].set_visible(False)
                 self.canvas.draw()
-                # self.status_label.setText("Gráfico: Nenhum dado válido encontrado para plotar.") # Não atualiza o status de dentro do plot
                 return
 
 
-        # --- Se houver dados válidos, plota o gráfico ---
-        if 'Preço Numérico' in df_to_plot.columns and 'Site' in df_to_plot.columns:
-            # Calcula a média do preço numérico por site
-            average_prices = df_to_plot.groupby('Site')['Preço Numérico'].mean().reset_index()
-            
-            if not average_prices.empty:
-                sites_data = average_prices['Site'].tolist()
-                chart_prices = average_prices['Preço Numérico'].tolist()
+        # --- NOVAS ETAPAS DE PROCESSAMENTO DE DADOS AQUI ---
+        # 1. Limpa e converte preços
+        df_limpo = limpar_e_converter_preco(df_to_plot.copy())
+        
+        # 2. Agrupa produtos similares
+        df_agrupado = agrupar_produtos_similares(df_limpo.copy(), threshold=85) # Threshold ajustável
+        df_agrupado = df_agrupado.dropna(subset=['Preço Numérico']) # Remove nulos após agrupamento/limpeza
 
-                ax.bar(sites_data, chart_prices, color='#007BFF')
-                ax.set_title("Preço Médio por Site (Dados Raspados)", color='#E0E0E0', fontsize=14)
-            else: # Se o agrupamento resultou em DataFrame vazio (ex: todos os preços eram None)
-                ax.text(0.5, 0.5, "Nenhum dado numérico válido após agrupamento.", horizontalalignment='center', verticalalignment='center', color='#B0B0B0', transform=ax.transAxes)
-                ax.set_title("Nenhum Dado para Gráfico", color='#E0E0E0', fontsize=14)
-        else: # Se as colunas essenciais não existem no DataFrame
-            ax.text(0.5, 0.5, "Colunas 'Site' ou 'Preço Numérico' não encontradas nos dados.", horizontalalignment='center', verticalalignment='center', color='#B0B0B0', transform=ax.transAxes)
-            ax.set_title("Erro nas Colunas de Dados", color='#E0E0E0', fontsize=14)
+        if df_agrupado.empty: # Se após o agrupamento/limpeza o DF ainda estiver vazio
+            ax.text(0.5, 0.5, "Nenhum dado válido para gráfico após processamento.",
+                    horizontalalignment='center', verticalalignment='center',
+                    transform=ax.transAxes, color='#B0B0B0', fontsize=12)
+            ax.set_xticks([])
+            ax.set_yticks([])
+            ax.spines['top'].set_visible(False)
+            ax.spines['right'].set_visible(False)
+            ax.spines['bottom'].set_visible(False)
+            ax.spines['left'].set_visible(False)
+            self.canvas.draw()
+            return
 
 
-        ax.set_xlabel("Site", color='#B0B0B0', fontsize=12)
-        ax.set_ylabel("Preço Médio (R$)", color='#B0B0B0', fontsize=12)
+        # --- CHAMADA À NOVA FUNÇÃO DE PLOTAGEM ---
+        # Exemplo: Gerar um gráfico de linha com destaques
+        gerar_grafico_linha_com_destaques(ax, df_agrupado) # Passa os eixos 'ax' e o DataFrame AGRUPADO
 
-        ax.tick_params(axis='x', colors='#B0B0B0')
-        ax.tick_params(axis='y', colors='#B0B0B0')
+        # As configurações de estilo do Matplotlib (cores de borda, ticks, etc.)
+        # JÁ ESTÃO dentro de gerar_grafico_linha_com_destaques.
+        # As linhas abaixo são redundantes e foram mantidas apenas para referência no código anterior.
+        # Elas serão removidas aqui para evitar conflito.
+        # ax.set_xlabel("Site", color='#B0B0B0', fontsize=12)
+        # ax.set_ylabel("Preço Médio (R$)", color='#B0B0B0', fontsize=12)
+        # ax.tick_params(axis='x', colors='#B0B0B0')
+        # ax.tick_params(axis='y', colors='#B0B0B0')
+        # ax.spines['top'].set_visible(False)
+        # ax.spines['right'].set_visible(False)
+        # ax.spines['bottom'].set_color('#4A4A4A')
+        # ax.spines['left'].set_color('#4A4A4A')
 
-        ax.spines['top'].set_visible(False)
-        ax.spines['right'].set_visible(False)
-        ax.spines['bottom'].set_color('#4A4A4A')
-        ax.spines['left'].set_color('#4A4A4A')
-
-        self.canvas.draw() # Desenha o gráfico
-
+        self.canvas.draw() # Desenha o gráfico na GUI
 
     # --- Métodos para Arrastar e Controlar a Janela Customizada ---
     def mousePressEvent(self, event):
@@ -746,11 +795,12 @@ class ScraperApp(QMainWindow): # Herda de QMainWindow
             self.move(self.pos() + delta) # Move a janela pela diferença
             self.old_pos = event.globalPosition().toPoint()
 
-    def mouseReleaseEvent(self, event):
+    # --- Métodos de Mouse e Janela (Corrigidos para Estar Fora de Outras Funções) ---
+    def mouseReleaseEvent(self, event): # CORRIGIDO: Este método não deve estar aninhado
         """Reseta a posição antiga do mouse quando o botão é liberado."""
         self.old_pos = None
 
-    def toggle_maximize_restore(self):
+    def toggle_maximize_restore(self): # CORRIGIDO: Este método não deve estar aninhado
         """Alterna entre maximizar e restaurar a janela."""
         if self.isMaximized():
             self.showNormal() # Restaura a janela
@@ -758,6 +808,7 @@ class ScraperApp(QMainWindow): # Herda de QMainWindow
         else:
             self.showMaximized() # Maximiza a janela
             self.max_button.setText("🗗") # Muda o texto/ícone do botão (símbolo Unicode para restaurar)
+
 
 # --- Bloco de Execução Principal da Aplicação ---
 if __name__ == "__main__":
