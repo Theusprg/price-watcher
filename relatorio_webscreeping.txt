@@ -1,0 +1,7 @@
+O FOCO NÃO VAI SER VENDER NADA APENAS FINALIZAR
+
+
+#criar uma funçao no fastapi para linkar com o html um que seja o de buscar, select boxl, e um buscar
+#ver o melhor modo de fazer isso, e de maneira geral pivotar o projeto para um site, na verdade ter os 2
+#no final de tudo, com tudo feito criar um mini saas vendendo isso e fazer um dashboard de b.i com os
+#melhores preços um dashboar geral.

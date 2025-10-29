@@ -10,6 +10,7 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 import re
 
 # Função get_driver_path (mantém a que você já tem)
@@ -39,7 +40,7 @@ def mercadolivre(produto, current_offset, time_str):
 
     try:
         service = ChromeService(executable_path=driver_executable_path)
-        driver = webdriver.Chrome(service=service, options=options)
+        driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
         url = f"https://lista.mercadolivre.com.br/informatica/portateis-acessorios/{produto}/{produto}_Desde_{current_offset}_NoIndex_True"
         driver.get(url)

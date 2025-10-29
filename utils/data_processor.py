@@ -5,7 +5,8 @@ import re
 import os
 from thefuzz import fuzz
 from thefuzz import process
-# REMOVIDO: import matplotlib.pyplot as plt - Não é mais necessário aqui
+
+import resultados
 
 def limpar_e_converter_preco(df):
     if df.empty or 'Preço Bruto' not in df.columns:

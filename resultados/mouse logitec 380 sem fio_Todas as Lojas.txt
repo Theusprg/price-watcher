@@ -1,0 +1,56 @@
+Site: TerabyteShop
+Nome do Produto: Teclado Mecânico Gamer Akko 5075S Clear Black, RGB, ABNT2, Black, Switch V3 Cream Purple Pro
+Preço Bruto: R$ 379,90à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/35928/teclado-mecanico-gamer-akko-5075s-clear-black-rgb-abnt2-black-switch-v3-cream-purple-pro
+Data do Scraping: 20:12:11
+------------------------------
+Site: TerabyteShop
+Nome do Produto: Headset Gamer Marvo, RGB, USB, Drivers de 50mm, Black, H8618 BK
+Preço Bruto: R$ 94,90à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/25571/headset-gamer-marvo-rgb-usb-drivers-de-50mm-black-h8618-bk
+Data do Scraping: 20:12:11
+------------------------------
+Site: TerabyteShop
+Nome do Produto: Mouse Gamer Redragon FYZU Pro Wireless, Bluetooth, 26000 DPI, 6 Botões Programáveis, Black, M995-PRO
+Preço Bruto: R$ 219,90à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/29428/mouse-gamer-redragon-fyzu-pro-wireless-bluetooth-26000-dpi-6-botoes-programaveis-black-m955-pro
+Data do Scraping: 20:12:11
+------------------------------
+Site: TerabyteShop
+Nome do Produto: Placa Mãe Duex DX H55ZG, Chipset H55, Intel LGA 1156, MATX, DDR3
+Preço Bruto: R$ 129,99à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/23810/placa-mae-duex-dx-h55zg-chipset-h55-intel-lga-1156-matx-ddr3
+Data do Scraping: 20:12:11
+------------------------------
+Site: TerabyteShop
+Nome do Produto: SSD Kingston Fury Renegade, 1TB, G5, PCIe, M.2 NVMe, 2280, Leitura 14.200MBs e Gravação 11.000MBs, SFYR2S
+Preço Bruto: R$ 1.489,90à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/36533/ssd-kingston-fury-renegade-1tb-g5-pcie-m2-nvme-2280-leitura-14200mbs-e-gravacao-11000mbs-sfyr2s1t0
+Data do Scraping: 20:12:11
+------------------------------
+Site: TerabyteShop
+Nome do Produto: Memória DDR4 Geil EVO X II RGB SYNC 16GB (2x8GB) 3600MHz, GAEXSY416GB3600C18BDC
+Preço Bruto: R$ 339,99à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/12322/memoria-ddr4-geil-evo-x-ii-rgb-16gb-2x8gb-3600mhz-gaexsy416gb3600c18bdc
+Data do Scraping: 20:12:11
+------------------------------
+Site: TerabyteShop
+Nome do Produto: Mousepad Gamer PCYes Signature Extended Red Magma Limited, Extra Grande, 900x420mm, Vermelho, PMS90X42RM
+Preço Bruto: R$ 94,90à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/34186/mousepad-gamer-pcyes-signature-extended-red-magma-limited-extra-grande-900x420mm-vermelho-pms90x42rm
+Data do Scraping: 20:12:11
+------------------------------
+Site: TerabyteShop
+Nome do Produto: Placa Mãe Asus TUF Gaming B650M-PLUS, Chipset B650, AMD AM5, mATX, DDR5, 90MB1BG0-C1BAY0
+Preço Bruto: R$ 1.499,90à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/24521/placa-mae-asus-tuf-gaming-b650m-plus-chipset-b650-amd-am5-matx-ddr5-90mb1bg0-c1bay0
+Data do Scraping: 20:12:11
+------------------------------

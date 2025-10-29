@@ -1,0 +1,498 @@
+Site: Kabum
+Nome do Produto: Smartphone Samsung A06 4G 128GB 4GB Tela 6.7 Cam 50MP Frontal 8MP Azul Escuro
+Preço Bruto: R$ 599,00
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Smartphone Xiaomi Redmi Note 14 256GB 8GB RAM 6.67" AMOLED Câmera 108Mp - Preto
+Preço Bruto: R$ 1.193,00
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Iphone 15 Apple, 128GB, Quadriband, 6,1 Polegadas, Preto - Mtp03br/a
+Preço Bruto: R$ 4.299,00
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Smartphone Samsung Galaxy A15, 128GB, 4GB RAM, Câmera Traseira Tripla 50MP + Selfie 13MP, Tela 6.5", 4G, Azul Escuro
+Preço Bruto: R$ 809,10
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Smartphone Samsung S24 Fe S721 128GB 5g
+Preço Bruto: R$ 2.498,99
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Xiaomi Smartphone Poco C75 256gb 8ram 4g Preto Tela Ips Lcd De 6,88" Hd+
+Preço Bruto: R$ 968,05
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: iPhone 16 Pro Max Apple 256GB, Câmera Tripla de 48MP, Tela 6,9", Titânio Natural
+Preço Bruto: R$ 9.299,00
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Smartphone Samsung Galaxy A05s, 128GB, 6GB RAM, Câmera Dupla 50MP + Selfie 13MP, Tela 6.7", Dual Chip, Android 14, Preto
+Preço Bruto: R$ 872,03
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Smartphone Samsung Galaxy A06 128GB - Verde Claro, 4g, Ram 4gb, Câmera 50mp + Selfie 8mp, Tela 6,7"
+Preço Bruto: R$ 599,00
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Celular Xiaomi Redmi Note 14 Pro 256gb 8GB Ram 4g 120hz 5500mah Câmera 200mp Com Ia Azul/roxo/preto
+Preço Bruto: R$ 1.865,61
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Motorola Moto G35 5G, 128GB, 12GB RAM, Boost E Câmera 50MP Com AI, Tela 6.7" Com Super Brilho - Xt2433
+Preço Bruto: R$ 875,04
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Smartphone Samsung Galaxy S24 FE 128GB 5G 8GB RAM Grafite 6,7" Câm. Tripla + Selfie 10MP
+Preço Bruto: R$ 2.776,66
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Smartphone Samsung Galaxy A26, Câmera Tripla, 256 Gb, 5g, Preto - A266m
+Preço Bruto: R$ 1.882,56
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Smartphone Motorola Moto G35 5g 256gb - Cinza, 12gb Ram Boost, Câmera 50 Mp + Selfie 16mp E Tela 6,7", Android 14
+Preço Bruto: R$ 998,00
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Smartphone Samsung Galaxy A06 128GB - Branco, 4g, Ram 4gb, Câmera 50mp + Selfie 8mp, Tela 6,7"
+Preço Bruto: R$ 599,00
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Smartphone Xiaomi Poco X6 Pro, 5G, 12GB RAM, 512GB, Tela 6.67", Preto
+Preço Bruto: R$ 2.080,99
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: iPhone 16 Pro Max Apple 256GB, Câmera Tripla de 48MP, Tela 6,9", Titânio Preto
+Preço Bruto: R$ 9.299,00
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Celular Smartphone Xiaomi Redmi 14c Global 256gb 8GB Ram Dual Sim Tela 6.88" - Preto
+Preço Bruto: R$ 896,81
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Smartphone Samsung Galaxy S24, 256GB, 8GB  RAM, Câmera Tripla 50 MP  Tela Infinita 6.2, Preto + Selfie 12MP
+Preço Bruto: R$ 3.394,22
+Data do Scraping: 18:25:55
+------------------------------
+Site: Kabum
+Nome do Produto: Smartphone Xiaomi Poco X7 Pro, 5G, 512GB, 12GB RAM, Câmera 50MP, Tela 6.67" AMOLED, Dual Sim, Preto
+Preço Bruto: R$ 2.404,63
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Mini Ventilador De Mão Portátil Com Suporte Celular Para Secar Cílios Maquiagem Cor Modelo Sortido 17 Cm Altura Pklk
+Preço Bruto: R$25
+Link do Produto: https://www.mercadolivre.com.br/mini-ventilador-de-mo-portatil-com-suporte-celular-para-secar-cilios-maquiagem-cor-modelo-sortido-17-cm-altura-pklk/p/MLB48480121#polycard_client=search-nordic&searchVariation=MLB48480121&backend_model=search-backend&wid=MLB5353451198&position=2&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte De Mesa Para Celular Articulado 360° No2problems
+Preço Bruto: R$32
+Link do Produto: https://www.mercadolivre.com.br/no2problems-360-articulated-cell-phone-desk-stand-heavy/p/MLB2028483104#polycard_client=search-nordic&searchVariation=MLB2028483104&wid=MLB5523843300&position=1&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Retrátil 2 Em 1 Para Celular/tablet De Cabeceira
+Preço Bruto: R$39
+Link do Produto: https://www.mercadolivre.com.br/2-in-1-bedside-phone-tablet-holder-retractable-tablet-mount/p/MLB2028312518#polycard_client=search-nordic&searchVariation=MLB2028312518&wid=MLB4136822907&position=9&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Mini Ventilador De Mão Portátil Com Suporte Celular Para Secar Cílios Maquiagem Cor Modelo Sortido 17 Cm Altura Pklk
+Preço Bruto: R$25
+Link do Produto: https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=oJoITd9rp03sz6rWJyhC4Jv7wxqBAGG%2FZn9AMNyDeOvfM1dehLFW%2BSlGyDHdd6RPXkcz5bDvV2cbK4Hq9ULYoneBxcFugMAPGXyVoOo0CWofYa%2BSPrlNe%2FB%2FYPeFCo5aOsZsZeHc69CPFM8atJLdekNSNzblwVQxM3kvKZIspg%2F7h5ULaXBnWGKThDpFR7LOG0zfYv5yOV0SeoAcY6MU0xMTTDTjb8NgeazPq5BY9rm5Vw2DFS4Q7qk%2F%2B0pXOuKfYyL4G5KK%2B%2B0R8BPVWamIgFpbYLyRqDGjYxnYUD4vhEddldeBNNJqev878ojZU8o%2F2wKaMaRDulkwC6ezIvz2UfyGxeOqTN6wHnmJauEjAno6bO%2F90ZvzEDEDp%2FuOuFqw6M7SHzyFhnVxD60oixpVUckmSlddOQOzJSdhFsDdVLNBk5JEmWaXA6T15AnCGxKpNTyyXCd50MX%2FojRtjwOFT%2FaDE7XCJiNDm21h9Xul1B8d8RaNSGGcjFT8QRfQrQcYPfKt8iaxQov7nLnO9zcos5JVsGF6fM9HQHQILuwI30UyQmWQijryA0DXU%2Fqb9ERcYgER0qj75oO1wA4P1fodVH9qju0lOPMM%2BL0J6f19ZrrwkfZG247wb1S%2Bnk0EkU%2BvE77%2BLFa5QiWA1WQIa7ksmN7xgTE%2BThoZEROisRuNxlvk3S%2BfAQu41I7rVSBCnrwBtmVYRkXF5urDkiFceoGA9V8AKQcgv467L49SkaeASER9o1Ff61O%2BKvM%2BSBxoNiHwUWG0H9i0czBU4GL72PV63%2Bg3VqurwVgnPUHswEKVwh0%2FNV%2FC2IVETUvw4kGSAZB85IvRilDkOG5mWK5DkUJG6fg9TvYz46fuQc2hIhqgPC8REQw1W4u4wujKUUpxeea5zIL6%2BNMyeooZ4zq8GAKMszxDJjmwhzA7PCYRD6FGvqVNm6qe1LIFbANWEOP%2BlxQAPjRL1vTx5SRRwRU0cd1W7dNpW7QzP5xCXRbPxKYUtj7vkpZusVnjlUXoXS4oueay3%2FtuBf0iOyJ1eGNv%2Fkfcsygb9B1g2hZI8tYuyJpaXuPHG4nUdiD5pMSFgMP4FLI%3D#polycard_client=search-nordic&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&wid=MLB5353451198&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Hub 8 Em 1 Type-c Hdmi 4k Rj45 Internet Macbook Pro M1 Air
+Preço Bruto: R$164
+Link do Produto: https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=XuaC%2BGif8btkNjo5%2FbQ1X2PIlIOwGOizTT1uF2JdU36S8XhMzPSdaXdiWLGqmxCM2jn97puYYNWrjgmoSQ3M66sDhL0Xfl3IZymFk%2BF56wqpTu2eRU5SXf6dtZ%2FHW4hJVL3R6bv%2FradpCI509T3JZPyg1F640YIOOEl7rekBRVB2JvwfHMfjaTf573%2BYE3p6giwUB6rsyJ3bLAM%2FXmcFaOeLumWDlzRq%2BwEjYt5Bk7q2%2FHZaa2Kb2A7CtI8FbOpOrgJ3P0HkIifgV%2F%2FcNlmOV3Bo5xeV34KEJmzYitueYOD7fqWxM2RstjumeohoWOiwVd3pryGtCF795V9Oh5iSa5xBUmVOTpI1DTBymgLEa0RV%2F%2FrxpvVs%2B993iFNDEB%2BTaTu7jVseX63govDfOFNGPGrpOL7ovMpp1RWXVi8xGrpVDSf%2FCVWOKjiB8OqpEpiypttgW6w%2FXpiBLKNxicRnTPH3QWcJlpfctNse1rIvq5ziJ1V4EtsTeDdiA%2BLzDv3ZjmEEGRrjqsXSeFs21%2B2zR9UFKx6IwrUMiGXCnbiQpos8XKyFzNTpxnNX79FXxhJFrPbuZbsBN3nOAQkHDdk9KcbRsRoOW6vn3z%2Fez3KEoS1qQvYBKszfWYubNJWdKpKenfgudaEhuTywRGD1tfJcMnxTD6lxXfdtpv4WaDaxUz1am6jgzKid9%2B99dt4Y55%2FTlj%2FtpVInrY%2FF9kz%2B0UdqGJVTLu7yyH%2BEv0dOaGOmPmlgHJ69y6IvxQCyGLfc2NGBipVdrMFKBObx83Tx4%2BdrbsWr1DrC1N2Afn72o3Y32xa8yQMrJHoRJRle04fghHzbJXhSl%2BOnGrUyHcdNvwjLhqR1VJBJMKdfqSJm6%2Bf2KdzT%2Fbq0fIz3P4m8C%2FkAwUD8%2BKo%2B2njU1kvDFp6e8E4Rdksgx42mmWXdDLnKlrKmvynZ9o1%2B%2FHRFc30h0exYkQ%3D%3D&searchVariation=180524714729#polycard_client=search-nordic&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Adaptador Usb C Hub 8 Em 1 Tipo C Para Hdmi Usb3.0 Rj45 Lan
+Preço Bruto: R$152
+Link do Produto: https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=pMZhehG%2Fqm853U%2Fjlfr91s9zmlpgSl4UmQxipg0I7HHfY6NJFA7YIaQXRsTDlCbJmnJIHHdqL8yIa9%2BLAdAikaExxbLLurfPOF7R3OzkB6MTdr%2F8i14hErOUIWol0R0NDHTY14aRnAxj3ukrIKBry38xZrB8qvZvJn3Nf4ZQH0e5j5p%2FKcaRAUCbXx5nseLeLSwnqTgWZBqOvU7tX%2FnDPqB2DPRB1oqzKTiDFvwt%2BkEGL42JlV1gzxDiMIKHjOsWqq6p%2B9yAezt%2B7T3bYkBHpZCwp9MvdM9KrOsWYYEuXfPpwXR78ZGWInUfDAotIYoIApUpNhJQQ%2F%2BX3pUW58uMeo1GnWqOBuORdmCBIKvNYVRwdjJ97SvFft1rQBU8bxH4SBrzwSRK7p8RW%2BJvs24otlxHNLVY5%2BG3C37TfhlY62CaVe4Nkxs62R0VCSy3iDNRx2%2FreCLaoxzLA3iuok2TS46Q6JQwz5By28NDhHDRVItdZvu8c%2FYpBCgnLbZH1aO1ZypIhZp3OwxRcWd7P06GbjQyEQ7v7H0qffoafUPAedGtwATjmK5TGLG7OikfI%2BTmNQde%2FgZ%2FfM7ssYwogg1qx9fxYvqVYsm4%2BAkupU9QmbnaR9rxiQI5Bqs1afD137QJf8VCoL47F13IIo0hkQaD01Cqg2vS%2FH1mnN8FCt2FqmDYbyNvBBjvid6A2MYfP40iLp03S8qttDh6V6%2FGfKxfgjYYRf3vok9xNlucYhDzTIDpQu5okOLGHQQGQ735rXP6nka42NlN1FnxSHKxbu3c0YSf%2FdmbtfW%2BqJiwVmUzj%2FZt%2BTRBXZCY1RDnC6cZh5%2BfHgMc3l%2BRmAXM2%2Bcbjm4wayIKZecavA9VrSHT16uTFxOBk6ChH7tYGPLXxMx0A%2BW9XlRFuqPIYYcLlE89d9HdziSHSNSksPF2jaH2sqLLm%2B3KFnv3SLX7vku4LfVvSNI%3D&searchVariation=180524704821#polycard_client=search-nordic&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Para Celular Modamoda, Suporte De Mesa, H
+Preço Bruto: R$53
+Link do Produto: https://www.mercadolivre.com.br/modamodasoporte-para-telefono-movil-soporte-de-escritorioh/p/MLB2028284708#polycard_client=search-nordic&searchVariation=MLB2028284708&wid=MLB4136674311&position=17&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Hub Usb 4 Portas Usb 3.0 Givian Eletronic 5 Gbps Extensor Ultra Rapido Adaptador Usb 3.0 Computador Pc Notebook Celular
+Preço Bruto: R$24
+Link do Produto: https://www.mercadolivre.com.br/hub-usb-4-portas-usb-30-givian-eletronic-5-gbps-extensor-ultra-rapido-adaptador-usb-30-computador-pc-notebook-celular/p/MLB46037060#polycard_client=search-nordic&searchVariation=MLB46037060&wid=MLB4025963081&position=26&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Protetor Webcam Notebook Celular 3un Pelicula Privacidade
+Preço Bruto: R$14
+Link do Produto: https://produto.mercadolivre.com.br/MLB-3315363461-protetor-webcam-notebook-celular-3un-pelicula-privacidade-_JM?searchVariation=178182454865#polycard_client=search-nordic&searchVariation=178182454865&position=32&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Cabo Adaptador Fone Ouvido P2 Para Samsung S20 S21 S22 S23
+Preço Bruto: R$29
+Link do Produto: https://produto.mercadolivre.com.br/MLB-3361661753-cabo-adaptador-fone-ouvido-p2-para-samsung-s20-s21-s22-s23-_JM?searchVariation=179911601473#polycard_client=search-nordic&searchVariation=179911601473&backend_model=search-backend&position=33&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Extensão Carregador Turbo Celular Tomada 10 Usb 3.0 Bivolt
+Preço Bruto: R$68
+Link do Produto: https://produto.mercadolivre.com.br/MLB-5069013036-extenso-carregador-turbo-celular-tomada-10-usb-30-bivolt-_JM?searchVariation=181698214018#polycard_client=search-nordic&searchVariation=181698214018&position=34&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Luminária De Mesa Com Grampo Usb Notebook Carregador Celular
+Preço Bruto: R$37
+Link do Produto: https://produto.mercadolivre.com.br/MLB-2828766202-luminaria-de-mesa-com-grampo-usb-notebook-carregador-celular-_JM?searchVariation=175388008268#polycard_client=search-nordic&searchVariation=175388008268&position=35&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Adaptador Hub Usb 3.0 7 Em 1 Macbook Notebook Pc Celular
+Preço Bruto: R$239
+Link do Produto: https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=gNhPOYdoZhvoQLOu5vSarAZZ6%2B%2FGsMwceqxgEa2E9pBrfwxYgMCs7jFgt0Z7CNy1854n3DDDrw7nm1tV4PMSCJNEnYoCjl2b0oyn9ebHcot41YjixXu9rVT99UK%2B1YSnK8yJP219FXvqFdRxb9j4THHV6%2F3V6%2BlxPY1tS1C1YRMAdUyd7S2VnhdhnCCgvQpHc5qTFVrWQVhU1Wt2bJSg19q3GT67wWtJqmi%2FhVm1ZzEXPgDf%2FePayy3ZUpWO%2FFPVcGCRV7wqP3tPsrjLeeFbN6MTgEvIyXKb2Jz086KfZqMxAahsvOsaMS36PyNa5VDE7PCQ5N%2FZfvDR6KqKtHrmNw4NdXprSn6wFpUFykQ%2FLx8gBR2Y6%2F89TOWGDUCLoBheNcIg3Zr3DRfTDzzeymjXRo%2BiIxwskofd0TPgoxhfVhw7O%2Fdb6Sr19BrhEspQnuzpDaO1xUxbF7sLsGtNwo7w%2BxpDV%2B4ikboJ6d6NT9sSkf6uuZthDXZ0nSZezGjT%2F0C1ozNCD%2FN%2BqJaFpmWmNVj9l2FdV%2BLTzJsWk2P2eBoTTjPjjMe8GmYUvvE%2Bgg%2BnMg%2B0V6Tya1GKrU7NOVlyxidBAhi9rUUCRD3ZeeUaLKB0HYfi57%2FTFo3uXuwBibY%2BsIRDTgZ2ofDRSOqNi8U1SBhdIDT2QCnWOn%2BfrZS%2FeBBNGanM0WeNRzpLmMjng4MZcekKO3aplj6%2FQxKb22CFOe9yg2r%2FA9gYuezZxyYATKTe8ji54%2Fmsd2CKavTrcv7dMTZGOX5nsOdynPJS3QiAZq%2BrDRydvBE9DRuMNfE9eoG9et93hklNeAph%2B4bvKiVqwdZQHidwPrsjJ1QTUBComFyTgjzFOXR068ruBFPPitU%2FxjTS4RHpHz3fHeq3lfp68rO%2F6s1qMep3v1ElKqyAPLcM%2F2cL1%2BNVF%2BwtKW8MA9gorORIJUk%2FYe9sxt85Wl1qAQ%3D%3D&searchVariation=184355701422#polycard_client=search-nordic&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Adaptador Hub Usb-c, Usb 3.0 5 Em 1 Para Macbook/pc/celular
+Preço Bruto: R$46
+Link do Produto: https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=smOgoaKNJKa%2BkgYhUDjLVpbb8e%2F9hjyuxFzOiBL9TkX1BYhRLzEf3bzDQxYCU9Xb9YgxsKMS5lumjN1xGnj6nv2ENBW%2BH8XF150VhDT%2BHIUHEsdfEoxQ9lfjK%2BGIY9WF3xRY9%2FQDT%2B0KjCumBeHKBmTXgpWlfbYGBiwOSJYdlEHC0BgXAz2GHQY3EPKcSiOJ7m2Rckww72Js2%2BBQUmg9vleXc%2BwT%2BtK0vKdyH8J9xc27fd3BJsuzMxRA7kAFd%2B3C3nSXjhCbrWgFphucUgHTb33HZjkD50Vr3TngbItYkd%2BhFbfKtQli5bAAvZ1Ogfqu6aHBAUjWU8%2BhWF88%2BCVFvON%2BKg0yeI8rbesnD8HwLrgaVZlCDkzICg%2BDzRdK544a3%2B64FKtUAC9uk2fuiUQF5C7vYdpeQgXPkgqR7WT572e2oVz%2F4J4s6GTqoKrVUt%2BuGPiZX%2FvqfMo2qdE7WligMgTzAF9N%2FHxdrnimpYjZZ%2FXHK6KgfKKETPJhdXpNy0lvHwFaDdMZWmXfxpo8CuWws%2FT5%2FYxfAfYJL6TOhnF9lzH%2BD%2B3gIUtW1qFN2xvm8nOKVt2%2FNaM13L1q88v6J%2Bw%2BGA2AnP2dhDqCITSEvO3wc53Wr9W%2F0nzyincS7gjqBQlkVJRt2yw9Dtx0avIE3HoyBXIh8GvgM6XCIgpjKfDsXtsGKM1A27D27uPjlYgUSTu5XmrtCuKPUjTy8yIRRSoKKlS4RwFySuva%2FpwZgn2e8fUUXplopKgR3uV3XS0ZffbYiD%2Bcj0Qjbe2hXdqnpCjMfa%2BxTWxX%2FDCTd26j0tAuW0NwLH3xuV6tv5%2Bw9g2TcSycr7AfUAYUskN4qELO6rqx5H7MNInYvjTrQJp0%2Bdc7qQ1Fm%2B%2BiUk6NM4L4kV4vDjBDkQkrbMkSsI4k50FDrOA2o0C2Utj8DDRAbXcSMySUJSgra99uulGRONYjyzWZIw%3D%3D&searchVariation=188671971973#polycard_client=search-nordic&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Apresentador Slide Sem Fio Usb Aportex Recarregável Branco
+Preço Bruto: R$71
+Link do Produto: https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=5zgIHe4qSxkcxCtkqysfJqzBxyHjrtzHVF6MgA5sZj5z9aMfn6su5FtMhwbjdg0v2OSZanZfk6uT59tgqMHm0Qd3QhbcJpgKuUuWUGRI1IfuMyX7Lqj1pYLDG7SFbqME2vB5CqhBZWcqNK%2BNQzm3uSU4gGkOYs9ptzaiKZ2TLnxVcJh9KpVUM7dLlCJqGeyTiN3sxYe1Tt9V%2FXKc0lsflU8rb%2FLI60tn1Da877oQt8RjyTeWylSvkF4vX9iDMCTrTJ217X0wrSA8%2Bl2jUiEkkeE2Ju5sMqF9E7PHoVL3ZqD%2BY5%2Bju4LFphapiIVYA8OPaLyK75JTmuufc1Gej8zB9su5WgTMl3udlYhcdV%2BBwfSevBBYfX3ePTnguKoVKI7F8VMIpaxZ51YPsrep316zIHsYkLGWg%2F3JZnW%2BqABcysUUBnis2w4oPI%2BEoRj6s6a%2FFYw80e4hJBq81yUtUNVaxAwyxZv%2B2WKhoJmT%2BMHw%2BUcC23x732Z3te3K87K%2FUK8fvMDF4DFC5KivC%2BD7Y3hGrs00kDG5YabNYXWPXSv9sKY6RrddRk4og3gVmQnjeKNVTormIh6qmuQlH1s8Z9eKeXwvgY0dPqr0epE85Coll6Zq%2BxNBRw9fkVF378b7%2FkI2LkWPn%2FcW%2BlothuiYmim1yyKwnF3v7k%2BFSsewte5%2FFtb0sEkFXIIjk6yC6cZUlLwAr%2FQ3kqsigXNumT3h9rorNiDGu%2FRKEigWFOmhTaAilXNDbW29W8%2BD0Z%2FRzZv20R5oA3N0JmrJBAsK2H7nsfEOdqdoPG8ypDkb6vcHwQJfsetKpoobUksf1KH0vWXWeTnqy3uIkYgdCTIQG5mpdtyv%2BZcAwPoeiTVqOAHZmfyKP8NwvbfmsFoJ32Hx2Z7N8zq3XUbCYzu%2Bba4JvBiHvFWnrey0axaMvy0Asw8VDofkadr5jqNOfo3ZoB9ww6bOXXsqfQ%3D%3D&searchVariation=187612537371#polycard_client=search-nordic&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Hub Tipo C com 4 portas Usb 3.0 2.0 Para PC Notebook Desktop Tablet Celular Adaptador Extensor Multiportas Plug and Play Portátil Compatível com Windows Macbook Samsung Dell Lenovo Motorola Xiaomi
+Preço Bruto: R$23
+Link do Produto: https://www.mercadolivre.com.br/hub-tipo-c-com-4-portas-usb-30-20-para-pc-notebook-desktop-tablet-celular-adaptador-extensor-multiportas-plug-and-play-portatil-compativel-com-windows-macbook-samsung-dell-lenovo-motorola-xiaomi/p/MLB52638803#polycard_client=search-nordic&searchVariation=MLB52638803&wid=MLB5506932760&position=31&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Para Monitor De Computador E Celular
+Preço Bruto: R$50
+Link do Produto: https://www.mercadolivre.com.br/computer-monitor-mount-phone-stand/p/MLB2027093651#polycard_client=search-nordic&searchVariation=MLB2027093651&wid=MLB5518048138&position=29&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Flexível Para Celular: Presente Prático
+Preço Bruto: R$16
+Link do Produto: https://produto.mercadolivre.com.br/MLB-5522249256-suporte-flexivel-para-celular-presente-pratico-_JM#polycard_client=search-nordic&position=36&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte De Telefone Celular Modamoda, Suporte Vertical Para
+Preço Bruto: R$53
+Link do Produto: https://produto.mercadolivre.com.br/MLB-4136636373-suporte-de-telefone-celular-modamoda-suporte-vertical-para-_JM#polycard_client=search-nordic&position=37&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Estação Carregador Turbo Celular Usb 3.0 30 Portas Bivolt
+Preço Bruto: R$199
+Link do Produto: https://produto.mercadolivre.com.br/MLB-5067137812-estaco-carregador-turbo-celular-usb-30-30-portas-bivolt-_JM?searchVariation=181688562882#polycard_client=search-nordic&searchVariation=181688562882&position=38&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Cabo Adaptador Para Celular Type Tipo C Para P2 Fone Ouvido
+Preço Bruto: R$8
+Link do Produto: https://www.mercadolivre.com.br/cabo-adaptador-para-celular-type-tipo-c-para-p2-fone-ouvido/p/MLB39088054#polycard_client=search-nordic&searchVariation=MLB39088054&wid=MLB4127357841&position=20&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Notebook Gamer Rgb Ergonomico 6 Fans Coller Celular
+Preço Bruto: R$179
+Link do Produto: https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=nUF1G0JfomnKMz%2F42UNeL4fPr69%2F8mV99J3o2QLcZ3F6KhA%2B461u%2FQ1BXXrpm4mpwmzlFISZkC1vCSLejlGFuAfYIe1Uh9XA5NUF9nJ5oLAIs2StBus%2BcMBj0Qzcv10%2BPsGRUSxnKFdjb%2FZhOCT0K7m3rG%2FmT385YwXoLqeuXbUdaGVgacw%2FYYjvFIsdpxV2MmCwTxlo7%2BD6f4gCptknUM5Atpzk5OAuAGByh%2Fiq3vA8CsgNIZy46w8Der5ORLjFi%2BPPO5KIaarONglERtNe78jA1I7K4uqHMAiVYlKswMuXqb5WFOVBu9QkqbFKhuo6wyw7fMIWXK6%2F59En71CgirhCCcwMM5UGcYH9QAr9YRaVZmZH4C3HvfDzlk0GWkpGzI%2BF09kxwm%2Bq0Ra1KiNZVXMVsKGIaGUGWXlmXzVZ7jkLLXAeBS%2B6A71R7buOwqBWUN2KQoTV9%2BE8OLiLc5HIakclcVcOL4lqm8osG%2FVJW1ADbZAyhkfye2tGnDe8oDHbZMle6sUxAmYzdRrcrz4bwNXk0e6XdoY6aR69G1mQfvvLP1dEbkx%2BFxEGG15JIzjQYU9PbV2JkDxH%2B5nu36oC7CHMuhRl7VO9LygcWZH5%2FG7%2Bz3EVaav4TSe9Ize1rg5m3znSbI7376qy736XQ4E3ELr7aBOhEqpCtKabhQryM3mNmjaGwUhaabqoggwBqYnw6io%2FZoghHKn0DzbxoU1oVwC3mAsuYnAmcTC%2FVYr33m6dsb5frCBF%2Bd6pn2VUu6e32BIhORzN4kXK64Tmms%2F%2FUAtGbIcHBrVfWWMgoOaven0U4vPA3u4OD%2F%2FTAQHASk3alK8x3%2BhlpMrBw9Bg7Kcyxq3T%2FIuEoxE4Ymwr5mQXmNNK9Vkl29sLKnOD5wPHo9sodaMegEzUy6u3ZSxTmGKgLx6cWW7B%2BY5iBv%2FQ5vaatzWXjggvl6lKKx%2Bqj4Cz4lVnxw%3D%3D&searchVariation=180118821287#polycard_client=search-nordic&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Hub Usb C 4 Portas Usb 3.0 - 5gbps Super Rápido - Tipo C
+Preço Bruto: R$23
+Link do Produto: https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=Fz4BWrsydYXI%2Fh3l1bj9VvgVNTyuJJEEQ64SEH1PXGa7rqzdTVbdrkfUYf6Ao7RVbL9wmAYB91VE0lBhOsf2GEftucLukjhd6CO6sqStUKH9EzlmDZND9SFj4NnCDnJ8qYB5xRZmeajQ88zHFd4Qdt8TDpaXcIYGwL%2FjZ1Su6VYg7D7YZt%2FKbE9hUn%2B9H%2BHzrB%2Bnz1NsX5pjbcO4BIv%2BodbrHHqqS46MZ1teKnkNmHNEifeD9HhrmkNc7svuHnSxSZEU1CZ2snni41hC%2BmYlasyEsBdVA9uT%2FNFwfi4Iw3pBRuj0OvI8vhNSDmoV37An7cFj2IxBgL%2FdYk9Q2S9aRZwE8slOuI4cgFJyzYxYcemnHXblu1v1Xe4UyTlK34DivK5IljXE7obaXqnI%2FaPTo2TFLcvfz1IAXAcHrFvUHlS20Nc2bDUWGXH249%2FkFa%2Bfcd7M3KZgSZmVkiX%2Fiu%2Fqg6%2BcDJo9LfXvDlYDgYsI%2FOWL%2F%2B5gw9krQMm7j1IC5JAjV5KOBO5vMTsyefbFBoZ%2B0ZXGrTywBFDDvb6EEuqosXXYZ0yvYMD7O8251o%2BWC29t22gLPbJ7313nLVgC0ntZlUpffWNt3uP%2FBHmRrqnWZyxaUG7%2FyHEpFracFvy1F%2BGyRyJDDnvB1aKyfpdoNy6CTPDIw4ImlX0HPf5l79w88JXwOANtVLkzgj4HX2mdEi%2Ba5gPjUqjHJCce4KZCVWragyt0gJa1D1XMHZncMt2Oz5kwa3xtW60a0yKg9e1xmpKQpPj2RfsqiEXhUMbKGBSdsWGE4C64J9Ix4ngVgs3QFQuggUSfcMaF1nyQtjQ09hwWmInCAOn9YIhTOnyGFzh%2Ff4Yxa23EwYJlvC3vx6NSlm76EL7jL1XyrMqHGwtgk2kGKnGGTMAqePcAfIzBvj6%2B89K5z0UwncxvauJzSw4D%2FzIUOaWoFfh2SmA%3D&searchVariation=184300251806#polycard_client=search-nordic&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Cabo Adaptador Fone Ouvido P2 Para Samsung S20 S21 S22 S23
+Preço Bruto: R$29
+Link do Produto: https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=00iFjbNfCnzK8ItmCZo%2FzSI6W5I4KS8aeaCc1lyU2CtBM9bOmnblLInOVkMvAJC7brqXMfwoT7elQ07SBQEXbjcxDN8646okE1ArmkKM0o7LHZ9WqtF%2Bfn%2BJeLvKk5PN3Ecej1Y0M07pzQnYrNBubOu25Tt%2B6fySOWML%2FUgsB8yJR%2Buldjpc7hMWpKCJmh1mU0TdGdgN5dndkYNzvTOSYHBd0kJbrSRauXeu9L0UOLZgcpE6WHkzoUBJ6sFSLtNNieHQMiPpV1CRuHJgqGhXv8CngOirZnXKdZz6tWrf%2BW0D6ztHit6yIYU%2BrlxMYKxye6yR%2F1LJpGhW2ZXys8aQeGHFFqGECEKcuiRUneLJzgub8h33jRWN%2BCNFd0ubkBQ%2FtuZB0ki86S75Ks0e3JIa9qBaN%2BAPZESQHwEhgynJY43XdchoAnp2JiFaXPBVChbQwaK4%2FyntgVyeIOD4Muzv4hpADd49oh87aKJ6dPkxVm3lDb1mTyWChn7Sbq72SABu%2BKNpL0o3Ct4Zb7%2FetJtqnqC0XU6RbP9R4I5zvXgamUMFwXlcDn8oKUNYV0V5H8OVeU4eRic%2F3mchlwiacm6pESzLjrcKSiS7hU%2BCwwoh113fTNr%2BfHWRNlnp%2Fbn3axt8Yo962cfusY8krx2acdBH8vjhmw0edX8pKxRc4PIR8JrsgqizwEQUE%2FB9W0qTgEmTmYrXmTarUVpgA4EbsfvzbwzNMWeRGzLZq%2By32vbiR8snv3nnFkvUzifAPvpBsGEku6lKxcSzFZFwTTFgTI3xT%2FkPA8ZEVx4ZYXj11%2BdxAxTaBc8sY%2FSyr5N978g95vzbEoREwMy7PNvZnLPmWqZIbnYr2K%2FMIfb%2FOGjXdQwdaifMS%2F07LZCqJgUaG19Er1uGW2SJEcnI082X2b1rIfl04EmJaDOmlU7wbipXov8paxiK%2F8qQp94tiD7%2FmGfDhECq&searchVariation=179911601473#polycard_client=search-nordic&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Apresentador Slide Sem Fio Usb Aportex Recarregável Branco
+Preço Bruto: R$71
+Link do Produto: https://produto.mercadolivre.com.br/MLB-4039409379-apresentador-slide-sem-fio-usb-aportex-recarregavel-branco-_JM?searchVariation=187612537371#polycard_client=search-nordic&searchVariation=187612537371&backend_model=search-backend&position=39&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Skin Adesivo Fibra Carbono Celular Notebook Gamer 1 Metro
+Preço Bruto: R$20
+Link do Produto: https://produto.mercadolivre.com.br/MLB-2058633618-skin-adesivo-fibra-carbono-celular-notebook-gamer-1-metro-_JM#polycard_client=search-nordic&position=40&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&wid=MLB2058633618&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Apresentador Sem Fio Laser Aportex Usb Longo Alcance 200m
+Preço Bruto: R$75
+Link do Produto: https://produto.mercadolivre.com.br/MLB-4039433301-apresentador-sem-fio-laser-aportex-usb-longo-alcance-200m-_JM?searchVariation=187612622547#polycard_client=search-nordic&searchVariation=187612622547&position=41&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Mini Ventilador De Mão Portátil Com Suporte Para Celular
+Preço Bruto: R$22
+Link do Produto: https://produto.mercadolivre.com.br/MLB-3979841631-mini-ventilador-de-mo-portatil-com-suporte-para-celular-_JM?searchVariation=186976140895#polycard_client=search-nordic&searchVariation=186976140895&position=42&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Notebook Gamer Rgb Ergonomico 6 Fans Coller Celular
+Preço Bruto: R$179
+Link do Produto: https://produto.mercadolivre.com.br/MLB-3463189027-suporte-notebook-gamer-rgb-ergonomico-6-fans-coller-celular-_JM?searchVariation=180118821287#polycard_client=search-nordic&searchVariation=180118821287&backend_model=search-backend&position=43&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Universal Portátil Para Celular E Mesa
+Preço Bruto: R$16
+Link do Produto: https://produto.mercadolivre.com.br/MLB-5513090434-suporte-universal-portatil-para-celular-e-mesa-_JM?searchVariation=184362305040#polycard_client=search-nordic&searchVariation=184362305040&position=44&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Kit De Stencil Bga Reballing Samsung Com 12 Peças Completo
+Preço Bruto: R$179
+Link do Produto: https://produto.mercadolivre.com.br/MLB-5499388092-kit-de-stencil-bga-reballing-samsung-com-12-pecas-completo-_JM#polycard_client=search-nordic&position=45&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&wid=MLB5499388092&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Celular Com Caixa De Som Bluetooth Integrada Preto
+Preço Bruto: R$52
+Link do Produto: https://www.mercadolivre.com.br/bluetooth-speaker-disc-compact-portable-audio-colorful-black/p/MLB2024620679#polycard_client=search-nordic&searchVariation=MLB2024620679&wid=MLB5513699874&position=28&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Cabo Adaptador Fone Ouvido P2 Para iPhone 16 Pro 16 Pro Max
+Preço Bruto: R$29
+Link do Produto: https://produto.mercadolivre.com.br/MLB-5124842514-cabo-adaptador-fone-ouvido-p2-para-iphone-16-pro-16-pro-max-_JM?searchVariation=185540255615#polycard_client=search-nordic&searchVariation=185540255615&position=46&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Adaptador Usb-c Hdmi Usb 3.0 Compacto C/ Cabo 10cm Portátil
+Preço Bruto: R$33
+Link do Produto: https://produto.mercadolivre.com.br/MLB-5406598520-adaptador-usb-c-hdmi-usb-30-compacto-c-cabo-10cm-portatil-_JM#polycard_client=search-nordic&position=47&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&wid=MLB5406598520&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Webcam Cover Tampa Câmera Espião Privacidade 10 Unidades
+Preço Bruto: R$32
+Link do Produto: https://produto.mercadolivre.com.br/MLB-1270235270-webcam-cover-tampa-cmera-espio-privacidade-10-unidades-_JM#polycard_client=search-nordic&position=48&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&wid=MLB1270235270&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Extensão Carregador Turbo Celular Tomada 6 Usb + 4 Tipo-c
+Preço Bruto: R$68
+Link do Produto: https://produto.mercadolivre.com.br/MLB-5069204622-extenso-carregador-turbo-celular-tomada-6-usb-4-tipo-c-_JM?searchVariation=184955957547#polycard_client=search-nordic&searchVariation=184955957547&position=49&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte De Alumínio Para Laptop Com Rotação Livre De 360°
+Preço Bruto: R$93
+Link do Produto: https://produto.mercadolivre.com.br/MLB-4125550877-suporte-de-aluminio-para-laptop-com-rotaco-livre-de-360-_JM?searchVariation=189002970777#polycard_client=search-nordic&searchVariation=189002970777&position=50&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Cabo Adaptador Fone Ouvido P2 Para iPhone 15 15 Pro Max Pro
+Preço Bruto: R$29
+Link do Produto: https://produto.mercadolivre.com.br/MLB-4435605192-cabo-adaptador-fone-ouvido-p2-para-iphone-15-15-pro-max-pro-_JM?searchVariation=179815365814#polycard_client=search-nordic&searchVariation=179815365814&position=51&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Bluetooth Som Carro Usb P2 Adaptado Conecta Celular Audio
+Preço Bruto: R$44
+Link do Produto: https://produto.mercadolivre.com.br/MLB-2787890398-bluetooth-som-carro-usb-p2-adaptado-conecta-celular-audio-_JM#polycard_client=search-nordic&position=52&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&wid=MLB2787890398&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte De Mesa Dobrável Para Celular De Alumínio
+Preço Bruto: R$60
+Link do Produto: https://produto.mercadolivre.com.br/MLB-5518464544-suporte-de-mesa-dobravel-para-celular-de-aluminio-_JM?searchVariation=189174969609#polycard_client=search-nordic&searchVariation=189174969609&position=53&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Ajustável Com Porta-celular Dobrável Rosa
+Preço Bruto: R$50
+Link do Produto: https://www.mercadolivre.com.br/elevating-lazy-stand-with-phone-holder-and-folding-pink/p/MLB2027283165#polycard_client=search-nordic&searchVariation=MLB2027283165&wid=MLB4135003761&position=25&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Dobrável Elevação C/celular Base Vermelha
+Preço Bruto: R$50
+Link do Produto: https://www.mercadolivre.com.br/elevating-lazy-stand-with-phone-holder-and-folding-base-red/p/MLB2027284577#polycard_client=search-nordic&searchVariation=MLB2027284577&wid=MLB4135003781&position=21&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Kit Mobilador Mageon Gamer Preto Com Teclado Semi Mecânico Rgb + Mouse Dpi Ajustável Led Rgb + Mouse Pad Estampado Tecido Speed
+Preço Bruto: R$139
+Link do Produto: https://www.mercadolivre.com.br/kit-mobilador-mageon-gamer-preto-com-teclado-semi-mecnico-rgb-mouse-dpi-ajustavel-led-rgb-mouse-pad-estampado-tecido-speed/p/MLB50189450#polycard_client=search-nordic&searchVariation=MLB50189450&wid=MLB5397560136&position=7&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Cabo Adaptador Tipoc Para Fone P2 3.5mm Type-c Para Celular Cor Preto
+Preço Bruto: R$19
+Link do Produto: https://www.mercadolivre.com.br/cabo-adaptador-tipoc-para-fone-p2-35mm-type-c-para-celular-cor-preto/p/MLB25009580#polycard_client=search-nordic&searchVariation=MLB25009580&wid=MLB4134189615&position=3&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Hub Usb Hdmi Type-c Usb-c 7 Portas Usb 3.0 5 Gbps Adaptador
+Preço Bruto: R$179
+Link do Produto: https://produto.mercadolivre.com.br/MLB-2704041651-hub-usb-hdmi-type-c-usb-c-7-portas-usb-30-5-gbps-adaptador-_JM#polycard_client=search-nordic&position=54&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&wid=MLB2704041651&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Kit Teclado Gamer Com Suporte Celular Rgb Mouse Laser Usb Mouse Preto Teclado Cinza
+Preço Bruto: R$111
+Link do Produto: https://www.mercadolivre.com.br/kit-teclado-gamer-com-suporte-celular-rgb-mouse-laser-usb-mouse-preto-teclado-cinza/p/MLB41107782#polycard_client=search-nordic&searchVariation=MLB41107782&wid=MLB4009840193&position=12&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte De Celular Carro Gira 360 Ventosa Silicone
+Preço Bruto: R$20
+Link do Produto: https://www.mercadolivre.com.br/suporte-de-celular-carro-gira-360-ventosa-silicone/p/MLB27414028#polycard_client=search-nordic&searchVariation=MLB27414028&wid=MLB5170750458&position=18&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte De Mesa Ajustável Giratório Para Ipad Celular Prata Prateado
+Preço Bruto: R$76
+Link do Produto: https://www.mercadolivre.com.br/suporte-de-mesa-ajustavel-giratorio-para-ipad-celular-prata/up/MLBU3065759652#polycard_client=search-nordic&searchVariation=MLBU3065759652&wid=MLB5314886338&position=19&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Para Notebook Ergonômico Regulável Com Apoio Celular
+Preço Bruto: R$78
+Link do Produto: https://produto.mercadolivre.com.br/MLB-4088295143-suporte-para-notebook-ergonmico-regulavel-com-apoio-celular-_JM#polycard_client=search-nordic&position=55&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&wid=MLB4088295143&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Elevatório Com Porta-celular Dobrável Branco
+Preço Bruto: R$50
+Link do Produto: https://www.mercadolivre.com.br/elevating-lazy-stand-with-phone-holder-and-folding-white/p/MLB2027280709#polycard_client=search-nordic&searchVariation=MLB2027280709&wid=MLB5519064348&position=27&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Elevatório C/ Porta-celular E Dobradiça Preta
+Preço Bruto: R$50
+Link do Produto: https://www.mercadolivre.com.br/elevating-lazy-stand-with-phone-holder-and-folding-black/p/MLB2027272153#polycard_client=search-nordic&searchVariation=MLB2027272153&wid=MLB5519064352&position=10&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Elevatório Com Porta-celular Dobrável Azul
+Preço Bruto: R$50
+Link do Produto: https://www.mercadolivre.com.br/elevating-lazy-stand-with-phone-holder-and-folding-blue/p/MLB2027281051#polycard_client=search-nordic&searchVariation=MLB2027281051&wid=MLB5519077194&position=8&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Notebook Gamer Rgb Ergonomico 6 Fans Coller Celular. Cor Preto
+Preço Bruto: R$179
+Link do Produto: https://www.mercadolivre.com.br/suporte-notebook-gamer-rgb-ergonomico-6-fans-coller-celular-cor-preto/p/MLB27409471#polycard_client=search-nordic&searchVariation=MLB27409471&wid=MLB5175463578&position=30&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Kit Gamer Mobilador Celular Teclado Mouse Tripé Usb Rgb Otg
+Preço Bruto: R$129
+Link do Produto: https://produto.mercadolivre.com.br/MLB-5109641174-kit-gamer-mobilador-celular-teclado-mouse-tripe-usb-rgb-otg-_JM?searchVariation=181876371192#polycard_client=search-nordic&searchVariation=181876371192&position=56&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Kit 3 Tampas Webcam Notebook Celular Privacidade Segurança
+Preço Bruto: R$12
+Link do Produto: https://produto.mercadolivre.com.br/MLB-5339798762-kit-3-tampas-webcam-notebook-celular-privacidade-seguranca-_JM?searchVariation=183279484506#polycard_client=search-nordic&searchVariation=183279484506&position=57&search_layout=grid&type=item&tracking_id=d8454c4c-3619-4241-958e-1dd782407028
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Suporte Ajustável De Notebook Até 15.6 Goldentec Com Cooler
+Preço Bruto: R$76
+Link do Produto: https://www.mercadolivre.com.br/suporte-ajustavel-de-notebook-ate-156-goldentec-com-cooler/p/MLB45555869#polycard_client=search-nordic&searchVariation=MLB45555869&wid=MLB3967760989&position=16&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: Mercado Livre
+Nome do Produto: Stencil Processador Poco X3 Pro
+Preço Bruto: R$149
+Link do Produto: https://www.mercadolivre.com.br/stencil-processador-poco-x3-pro/p/MLB38281366#polycard_client=search-nordic&searchVariation=MLB38281366&wid=MLB3932371771&position=11&search_layout=grid&type=product&tracking_id=d8454c4c-3619-4241-958e-1dd782407028&sid=search
+Data do Scraping: 18:25:55
+------------------------------
+Site: TerabyteShop
+Nome do Produto: Monitor Gamer AOC 21,5 Pol, FULL HD, VA, LED, 1ms, 100Hz, HDMI, 22B30HM2
+Preço Bruto: R$ 499,90à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/35037/monitor-gamer-aoc-215-pol-full-hd-va-led-1ms-100hz-hdmi-22b30hm2
+Data do Scraping: 18:25:55
+------------------------------
+Site: TerabyteShop
+Nome do Produto: Notebook Lenovo ThinkBook 14 G6 Intel Core i5-13420H / 16GB DDR5 / SSD 256GB / 14 Pol IPS Full HD /  Inte
+Preço Bruto: R$ 4.999,90à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/34847/notebook-lenovo-thinkbook-14-g6-intel-core-i5-13420h-16gb-ddr5-ssd-256gb-14-pol-ips-full-hd-intel-uhd-graphics-windows-11-cinza-21nq000abr
+Data do Scraping: 18:25:55
+------------------------------
+Site: TerabyteShop
+Nome do Produto: SSD Kingston Fury Renegade, 500GB, M.2 NVMe, 2280, Leitura 7300MBs e Gravação 3900MBs, SFYRS/500G
+Preço Bruto: R$ 464,90à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/21173/ssd-kingston-fury-renegade-500gb-m2-nvme-2280-leitura-7300mbs-e-gravacao-3900mbs-sfyrs500g
+Data do Scraping: 18:25:55
+------------------------------
+Site: TerabyteShop
+Nome do Produto: Teclado Mecânico Gamer Akko Hello Kitty Peking Opera 5108S(B), RGB, ANSI, Switch Akko x TTC Princess
+Preço Bruto: R$ 849,90à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/35953/teclado-mecanico-gamer-akko-hello-kitty-peking-opera-5108sb-rgb-ansi-switch-akko-x-ttc-princess
+Data do Scraping: 18:25:55
+------------------------------
+Site: TerabyteShop
+Nome do Produto: Mousepad Gamer Havit MP845, Estendido (700x300mm). HVMP-MP845-BK
+Preço Bruto: R$ 34,90à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/20810/mousepad-gamer-havit-mp845-estendido-700x300mm-hvmp-mp845-bk
+Data do Scraping: 18:25:55
+------------------------------
+Site: TerabyteShop
+Nome do Produto: Teclado Mecânico Gamer Akko Prunus Lannesiana 3068B Plus, RGB, Switch Akko Jelly Purple, ANSI
+Preço Bruto: R$ 569,90à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/22789/teclado-mecanico-gamer-akko-prunus-lannesiana-3068b-plus-rgb-switch-akko-jelly-purple-ansi
+Data do Scraping: 18:25:55
+------------------------------
+Site: TerabyteShop
+Nome do Produto: Placa de Vídeo XFX Mercury AMD Radeon RX 9070 XT OC RGB, 16GB, GDDR6, FSR, Ray Tracing, RX-97TRGBBB9
+Preço Bruto: R$ 5.699,90à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/34869/placa-de-video-xfx-mercury-amd-radeon-rx-9070-xt-oc-rgb-16gb-gddr6-fsr-ray-tracing-rx-97trgbbb9
+Data do Scraping: 18:25:55
+------------------------------
+Site: TerabyteShop
+Nome do Produto: Fonte Gamemax GS600, 600W, 80 Plus White, PFC Ativo, Black
+Preço Bruto: R$ 329,99à
+                                        vista
+Link do Produto: https://www.terabyteshop.com.br/produto/17493/fonte-gamemax-gs600-600w-80-plus-white-pfc-ativo
+Data do Scraping: 18:25:55
+------------------------------

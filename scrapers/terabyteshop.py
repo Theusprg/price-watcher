@@ -8,6 +8,7 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 import re
 
 # Nome do arquivo que guarda o caminho do perfil do Firefox
